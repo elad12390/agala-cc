@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Find the Perfect Stroller for Israel",
+    "description": "Compare 134 stroller models from 40+ brands — graded for Israeli sidewalks, weather, and conditions"
+  },
+  "hero": {
+    "title": "Find the Perfect Stroller",
+    "subtitle": "134 stroller models from 40+ brands — graded for Israel",
+    "cta": "Compare Strollers",
+    "stats": {
+      "models": "stroller models",
+      "brands": "brands",
+      "reviews": "parent reviews"
+    },
+    "rotating": ["lightweight", "urban", "all-terrain", "travel", "transit-ready"]
+  },
+  "filters": {
+    "search": "Search by brand, model, or keyword...",
+    "bigWheels": "Big wheels",
+    "bassinet": "Bassinet included",
+    "recommended": "Recommended",
+    "new": "New",
+    "onSale": "On Sale",
+    "allBrands": "All brands",
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "brand": "Brand",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "grade": "Grade",
+      "name": "Model name",
+      "type": "Type",
+      "match": "Match %"
+    },
+    "showing": "Showing {count} of {total} models"
+  },
+  "origins": {
+    "Israeli": "Israeli",
+    "Italian": "Italian",
+    "European": "European",
+    "Other": "Other"
+  },
+  "table": {
+    "brand": "Brand",
+    "model": "Model",
+    "grade": "Grade",
+    "type": "Type",
+    "price": "Price ₪",
+    "weight": "Weight",
+    "wheels": "Wheels",
+    "notes": "Notes"
+  },
+  "types": {
+    "Combined": "Combined",
+    "Compact": "Compact",
+    "Buggy": "Buggy",
+    "Double": "Double/Sibling",
+    "Modular": "Modular",
+    "All-terrain": "All-terrain",
+    "Car seat/Stroller": "Car seat/Stroller",
+    "Wagon": "Wagon",
+    "Trike": "Trike",
+    "Combined 3-in-1": "Combined 3-in-1",
+    "Combined/Double": "Combined/Double"
+  },
+  "badges": {
+    "recommended": "Recommended",
+    "new": "New",
+    "sale": "Sale!"
+  },
+  "grades": {
+    "label": "Grade",
+    "description": "Based on: Wheels (30%), Suspension (20%), Weight (15%), Value (15%), Bassinet (10%), Sun protection (10%)",
+    "breakdown": {
+      "title": "How we calculated:",
+      "terrain": "Terrain",
+      "weight": "Weight",
+      "fold": "Fold",
+      "sun": "Sun",
+      "style": "Style",
+      "resale": "Resale",
+      "expert": "Expert grade"
+    }
+  },
+  "tips": {
+    "title": "Smart Buying Tips for Israel",
+    "shilav": "Shilav club (free) = 25% off select brands",
+    "leumit": "Leumit Zahav reimburses up to ₪400 on strollers",
+    "zap": "Always check Zap.co.il before buying",
+    "eilat": "Eilat — no VAT! (ravkat.com)",
+    "compare": "Compare at: zap.co.il, wisebuy.co.il, thewinner.co.il",
+    "resale": "Premium strollers resell for ₪1,500–2,500 — real cost is only ₪30–40/month"
+  },
+  "footer": {
+    "madeWith": "Made with ❤️ in Israel",
+    "disclaimer": "Prices are approximate and may change. Always verify with the retailer.",
+    "lastUpdated": "Last updated: April 2026"
+  },
+  "common": {
+    "priceNotAvailable": "N/A",
+    "bassinetIncluded": "Bassinet included",
+    "bassinetSeparate": "Bassinet separate",
+    "buyLinks": "Buy links",
+    "watchVideo": "Watch video",
+    "moreDetails": "More details",
+    "lessDetails": "Less details"
+  },
+  "matcher": {
+    "hero": {
+      "title": "Find the Perfect Stroller for You",
+      "subtitle": "Answer 5 quick questions and know exactly what to buy",
+      "cta": "Let's Start"
+    },
+    "step1": {
+      "title": "Which strollers have you heard about?",
+      "subtitle": "Type a brand or model — pick 2-4 strollers to compare",
+      "placeholder": "Search strollers...",
+      "selected": "selected",
+      "min": "Select at least 2 strollers",
+      "next": "Continue",
+      "remove": "Remove"
+    },
+    "step2": {
+      "title": "What matters to you?",
+      "subtitle": "5 quick questions to find your match",
+      "budget": {
+        "label": "What's your budget?",
+        "upTo": "Up to"
+      },
+      "location": {
+        "label": "Where do you live?",
+        "city": "City apartment",
+        "cityDesc": "Elevator, sidewalks, public transit",
+        "suburb": "Suburbs",
+        "suburbDesc": "House, car, mixed sidewalks",
+        "rural": "Rural / Moshav",
+        "ruralDesc": "Terrain, trails, dirt roads"
+      },
+      "transport": {
+        "label": "Main transportation?",
+        "car": "Car",
+        "carDesc": "Compact fold for trunk",
+        "publicTransit": "Bus / Train",
+        "publicTransitDesc": "Light, one-hand fold",
+        "walking": "Walking",
+        "walkingDesc": "Comfort and terrain matter most"
+      },
+      "babyAge": {
+        "label": "Baby's age",
+        "newborn": "Newborn (0-6 months)",
+        "infant": "Infant (6+ months)",
+        "planning": "Still planning"
+      },
+      "priorities": {
+        "label": "What matters most? (drag to rank)",
+        "weight": "Lightweight",
+        "fold": "Easy fold",
+        "terrain": "All-terrain wheels",
+        "sun": "Sun protection",
+        "style": "Design & looks",
+        "resale": "Resale value"
+      },
+      "back": "Back",
+      "showResults": "Show me results"
+    },
+    "step3": {
+      "winnerTitle": "Your best match",
+      "winnerBecause": "Why it wins",
+      "matchScore": "Match",
+      "tradeoffs": "Watch out for",
+      "alternatives": "Your alternatives",
+      "altBetter": "Better for:",
+      "share": "Share with partner",
+      "shareText": "Hey, I found the perfect stroller for us!",
+      "startOver": "Start over",
+      "seeAll": "See all 134 strollers",
+      "buyLinks": "Where to buy",
+      "watchVideo": "Watch video",
+      "discoveriesTitle": "💡 Strollers you might not know about",
+      "discoveriesSubtitle": "Based on your preferences, these are also a great match",
+      "discoveriesBetter": "Scores higher than your picks!"
+    },
+    "progress": {
+      "step1": "Pick strollers",
+      "step2": "Preferences",
+      "step3": "Results"
+    }
+  }
+}
