@@ -9,6 +9,9 @@ import { gradeToNumber, getGradeColor } from "@/lib/grades";
 import { scoreStrollers, type ScoredStroller } from "@/lib/scoring";
 import { decodePreferences } from "@/lib/url-params";
 import { ScoreBreakdown } from "@/components/matcher/ScoreBreakdown";
+import { CompareCheckbox } from "@/components/compare/CompareCheckbox";
+import { CompareDrawer } from "@/components/compare/CompareDrawer";
+import { slugOf } from "@/lib/compare/dataset";
 import { MagicCard } from "@/components/ui/magic-card";
 import { ShineBorder } from "@/components/ui/shine-border";
 import { BlurFade } from "@/components/ui/blur-fade";
@@ -139,9 +142,14 @@ function StrollerGridInner() {
           const isExpanded = expandedId === id;
           const match = matchData?.get(id);
 
+          const slug = slugOf(s);
+
           return (
             <BlurFade key={id} delay={0.02 * Math.min(i, 20)} inView>
-              <div className="relative h-full rounded-2xl">
+              <div
+                className="relative h-full rounded-2xl"
+                data-testid={`stroller-card-${slug}`}
+              >
                 {s.recommended && (
                   <ShineBorder
                     shineColor={["#c4b5fd", "#f9a8d4", "#c4b5fd"]}
@@ -152,9 +160,12 @@ function StrollerGridInner() {
                 <MagicCard className="h-full rounded-2xl shadow-baby hover:shadow-baby-hover transition-all duration-300 hover:-translate-y-0.5" gradientColor="oklch(92% 0.04 330)" gradientOpacity={0.12}>
                   <div className="p-5 space-y-3">
                     <div className="flex items-center justify-between gap-3">
-                      <p className="text-sm text-muted-foreground font-medium">
-                        {s.flag} {s.brand}
-                      </p>
+                      <div className="flex items-center gap-2">
+                        <CompareCheckbox slug={slug} />
+                        <p className="text-sm text-muted-foreground font-medium">
+                          {s.flag} {s.brand}
+                        </p>
+                      </div>
                       <div className="flex items-center gap-2">
                         {match !== undefined && (
                           <Tooltip>
@@ -314,6 +325,8 @@ function StrollerGridInner() {
           <p className="text-sm text-muted-foreground mt-3">{t("filters.showing", { count: 0, total: strollers.length })}</p>
         </div>
       )}
+
+      <CompareDrawer />
     </section>
   );
 }
