@@ -105,6 +105,51 @@
     "moreDetails": "More details",
     "lessDetails": "Less details"
   },
+  "compare": {
+    "drawer": {
+      "countOne": "1 selected",
+      "countMany": "{count} selected",
+      "compareCta": "Compare",
+      "clearCta": "Clear all",
+      "tooltipMin": "Pick at least 2"
+    },
+    "toast": {
+      "max": "Maximum 4 strollers to compare"
+    },
+    "page": {
+      "title": "Compare strollers",
+      "removeColumn": "Remove",
+      "noticeMissingOne": "1 stroller not found",
+      "noticeMissingMany": "{count} strollers not found",
+      "noticeOverflow": "You can compare up to 4 strollers"
+    },
+    "rows": {
+      "price": "Price (₪)",
+      "weight": "Weight",
+      "wheels": "Wheels",
+      "bassinet": "Newborn-ready",
+      "terrain": "Terrain score",
+      "fold": "Fold score",
+      "sun": "Sun score",
+      "style": "Style score",
+      "grade": "Grade",
+      "notes": "Notes",
+      "gradeReason": "Why this grade"
+    },
+    "values": {
+      "bassinetTrue": "✓ Newborn-ready",
+      "bassinetFalse": "—",
+      "priceRange": "₪{min}{maxSuffix}",
+      "priceMaxSuffix": "-{max}"
+    },
+    "empty": {
+      "heading": "Pick 2-4 strollers to compare",
+      "subtitle": "Compare up to 4 models side by side",
+      "searchPlaceholder": "Search strollers...",
+      "browseAll": "See all 151 strollers",
+      "bannerNoneFound": "No matching strollers found"
+    }
+  },
   "matcher": {
     "hero": {
       "title": "Find the Perfect Stroller for You",

@@ -105,6 +105,51 @@
     "moreDetails": "פרטים נוספים",
     "lessDetails": "פחות פרטים"
   },
+  "compare": {
+    "drawer": {
+      "countOne": "1 selected",
+      "countMany": "{count} selected",
+      "compareCta": "השוו",
+      "clearCta": "נקו הכל",
+      "tooltipMin": "בחרו לפחות 2"
+    },
+    "toast": {
+      "max": "מקסימום 4 עגלות להשוואה"
+    },
+    "page": {
+      "title": "השוואת עגלות",
+      "removeColumn": "הסירו",
+      "noticeMissingOne": "דגם אחד לא נמצא",
+      "noticeMissingMany": "{count} דגמים לא נמצאו",
+      "noticeOverflow": "ניתן להשוות עד 4 עגלות"
+    },
+    "rows": {
+      "price": "מחיר (₪)",
+      "weight": "משקל",
+      "wheels": "גלגלים",
+      "bassinet": "מתאימה מלידה",
+      "terrain": "ציון שטח",
+      "fold": "ציון קיפול",
+      "sun": "ציון שמש",
+      "style": "ציון סטייל",
+      "grade": "ציון",
+      "notes": "הערות",
+      "gradeReason": "למה הציון הזה"
+    },
+    "values": {
+      "bassinetTrue": "✓ Newborn-ready",
+      "bassinetFalse": "—",
+      "priceRange": "₪{min}{maxSuffix}",
+      "priceMaxSuffix": "-{max}"
+    },
+    "empty": {
+      "heading": "בחרו 2-4 עגלות להשוואה",
+      "subtitle": "השוו עד 4 דגמים זה לצד זה",
+      "searchPlaceholder": "חפשו עגלה...",
+      "browseAll": "ראו את כל 151 העגלות",
+      "bannerNoneFound": "אף דגם לא נמצא"
+    }
+  },
   "matcher": {
     "hero": {
       "title": "מצאו את העגלה שמתאימה בדיוק לכם",
