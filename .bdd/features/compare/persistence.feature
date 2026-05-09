@@ -13,7 +13,7 @@ Feature: Compare selection persists across reload and navigation
     Given I am on "/he/all" with 3 strollers checked
     When I reload the page
     Then the same 3 strollers are still checked
-    And the drawer says "3 selected"
+    And the drawer says "נבחרו 3"
 
   Scenario: P2 — selection survives navigation away and back
     Given I am on "/he/all" with 2 strollers checked
@@ -25,7 +25,7 @@ Feature: Compare selection persists across reload and navigation
     When I open "/he/all?ids=cybex-priam-5,bugaboo-fox-5-renew" directly
     Then the "Cybex Priam 5" card is checked
     And the "Bugaboo Fox 5 Renew" card is checked
-    And the drawer says "2 selected"
+    And the drawer says "נבחרו 2"
 
   Scenario: P4 — URL wins over a stale localStorage selection
     Given localStorage compare selection is:

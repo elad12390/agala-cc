@@ -13,14 +13,14 @@ Feature: Selecting strollers to compare from /all
     Given I am on "/he/all" with no strollers selected
     When I check the compare box on the "Cybex Priam 5" card
     Then the compare drawer is visible
-    And the drawer says "1 selected"
+    And the drawer says "נבחרה 1"
     And the "Compare" button in the drawer is disabled
     And the disabled button shows the tooltip "בחרו לפחות 2"
 
   Scenario: S2 — second selection enables the compare button
     Given I am on "/he/all" with the "Cybex Priam 5" card already checked
     When I check the compare box on the "Bugaboo Fox 5 Renew" card
-    Then the drawer says "2 selected"
+    Then the drawer says "נבחרו 2"
     And the "Compare" button in the drawer is enabled
 
   Scenario: S3 — fifth selection is refused
@@ -28,7 +28,7 @@ Feature: Selecting strollers to compare from /all
     When I attempt to check the compare box on a 5th stroller card
     Then the 5th checkbox stays unchecked
     And a toast appears with the text "מקסימום 4 עגלות להשוואה"
-    And the drawer still says "4 selected"
+    And the drawer still says "נבחרו 4"
 
   Scenario: S4 — clicking compare navigates to the compare page with slugs in selection order
     Given I am on "/he/all"

@@ -107,8 +107,8 @@
   },
   "compare": {
     "drawer": {
-      "countOne": "1 selected",
-      "countMany": "{count} selected",
+      "countOne": "נבחרה 1",
+      "countMany": "נבחרו {count}",
       "compareCta": "השוו",
       "clearCta": "נקו הכל",
       "tooltipMin": "בחרו לפחות 2"
