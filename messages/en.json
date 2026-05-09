@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Find the Perfect Stroller for Israel",
-    "description": "Compare 149 stroller models from 40+ brands — graded for Israeli sidewalks, weather, and conditions"
+    "description": "Compare 151 stroller models from 40+ brands — graded for Israeli sidewalks, weather, and conditions"
   },
   "hero": {
     "title": "Find the Perfect Stroller",
-    "subtitle": "149 stroller models from 40+ brands — graded for Israel",
+    "subtitle": "151 stroller models from 40+ brands — graded for Israel",
     "cta": "Compare Strollers",
     "stats": {
       "models": "stroller models",
@@ -109,7 +109,9 @@
     "hero": {
       "title": "Find the Perfect Stroller for You",
       "subtitle": "Answer 5 quick questions and know exactly what to buy",
-      "cta": "Let's Start"
+      "cta": "Let's Start",
+      "browseAll": "Browse all 151 strollers",
+      "browseAllHint": "Skip the wizard"
     },
     "step1": {
       "title": "Which strollers have you heard about?",
@@ -173,7 +175,7 @@
       "share": "Share with partner",
       "shareText": "Hey, I found the perfect stroller for us!",
       "startOver": "Start over",
-      "seeAll": "See all 149 strollers",
+      "seeAll": "See all 151 strollers",
       "buyLinks": "Where to buy",
       "watchVideo": "Watch video",
       "discoveriesTitle": "💡 Strollers you might not know about",
