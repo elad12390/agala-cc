@@ -4,7 +4,7 @@ import { useState, useMemo, Suspense } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { ExternalLink, Play, ChevronDown, ChevronUp } from "lucide-react";
-import { strollers, type Stroller } from "@/data/strollers";
+import { strollers } from "@/data/strollers";
 import { gradeToNumber, getGradeColor } from "@/lib/grades";
 import { scoreStrollers, type ScoredStroller } from "@/lib/scoring";
 import { decodePreferences } from "@/lib/url-params";
@@ -68,7 +68,11 @@ function StrollerGridInner() {
           s.brand.toLowerCase().includes(q) ||
           s.model.toLowerCase().includes(q) ||
           s.notes.toLowerCase().includes(q) ||
+          s.notesHe.toLowerCase().includes(q) ||
           s.wheels.toLowerCase().includes(q) ||
+          s.wheelsHe.toLowerCase().includes(q) ||
+          s.gradeReason.toLowerCase().includes(q) ||
+          s.gradeReasonHe.toLowerCase().includes(q) ||
           s.type.toLowerCase().includes(q)
       );
     }

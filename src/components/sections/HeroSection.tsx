@@ -53,7 +53,7 @@ export function HeroSection() {
         </div>
 
         <div className="grid grid-cols-3 gap-8 md:gap-12 pt-12 max-w-lg mx-auto">
-          <StatBlock value={134} label={t("stats.models")} />
+          <StatBlock value={149} label={t("stats.models")} />
           <StatBlock value={40} label={t("stats.brands")} prefix="+" />
           <StatBlock value={12000} label={t("stats.reviews")} prefix="+" />
         </div>

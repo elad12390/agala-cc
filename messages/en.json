@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Find the Perfect Stroller for Israel",
-    "description": "Compare 134 stroller models from 40+ brands — graded for Israeli sidewalks, weather, and conditions"
+    "description": "Compare 149 stroller models from 40+ brands — graded for Israeli sidewalks, weather, and conditions"
   },
   "hero": {
     "title": "Find the Perfect Stroller",
-    "subtitle": "134 stroller models from 40+ brands — graded for Israel",
+    "subtitle": "149 stroller models from 40+ brands — graded for Israel",
     "cta": "Compare Strollers",
     "stats": {
       "models": "stroller models",
@@ -17,7 +17,7 @@
   "filters": {
     "search": "Search by brand, model, or keyword...",
     "bigWheels": "Big wheels",
-    "bassinet": "Bassinet included",
+    "bassinet": "Newborn-ready",
     "recommended": "Recommended",
     "new": "New",
     "onSale": "On Sale",
@@ -70,7 +70,7 @@
   },
   "grades": {
     "label": "Grade",
-    "description": "Based on: Wheels (30%), Suspension (20%), Weight (15%), Value (15%), Bassinet (10%), Sun protection (10%)",
+    "description": "Based on: Wheels (30%), Suspension (20%), Weight (15%), Value (15%), Newborn support (10%), Sun protection (10%)",
     "breakdown": {
       "title": "How we calculated:",
       "terrain": "Terrain",
@@ -98,8 +98,8 @@
   },
   "common": {
     "priceNotAvailable": "N/A",
-    "bassinetIncluded": "Bassinet included",
-    "bassinetSeparate": "Bassinet separate",
+    "bassinetIncluded": "Newborn-ready",
+    "bassinetSeparate": "Needs newborn accessory",
     "buyLinks": "Buy links",
     "watchVideo": "Watch video",
     "moreDetails": "More details",
@@ -173,7 +173,7 @@
       "share": "Share with partner",
       "shareText": "Hey, I found the perfect stroller for us!",
       "startOver": "Start over",
-      "seeAll": "See all 134 strollers",
+      "seeAll": "See all 149 strollers",
       "buyLinks": "Where to buy",
       "watchVideo": "Watch video",
       "discoveriesTitle": "💡 Strollers you might not know about",
