@@ -31,6 +31,11 @@ interface DotPatternProps extends React.SVGProps<SVGSVGElement> {
   [key: string]: unknown
 }
 
+function seededFraction(seed: number) {
+  const value = Math.sin(seed) * 10000
+  return value - Math.floor(value)
+}
+
 /**
  * DotPattern Component
  *
@@ -102,8 +107,8 @@ export function DotPattern({
       return {
         x: col * width + cx + x,
         y: row * height + cy + y,
-        delay: Math.random() * 5,
-        duration: Math.random() * 3 + 2,
+        delay: seededFraction(i + width * 13 + height * 17) * 5,
+        duration: seededFraction(i + width * 19 + height * 23) * 3 + 2,
       }
     }
   )
